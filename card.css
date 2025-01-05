@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: greenyellow;
+}
+
+#head {
+    text-align: center;
+    margin: 5em;
+}
+
+#head b {
+    color: rgb(227, 35, 234);
+    text-transform: capitalize;
+    margin: 1em;
+}
+
+#head h1 {
+    margin: 9px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(83, 60, 186);
+}
+
+#main_container {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+    width: 100%;
+    background-color: rgb(151, 30, 30);
+    padding: 4px;
+    gap: 2em; 
+}
+
+.card {
+    background-color: gray;
+    min-height: 359px;
+    width: 300px; /* Adjust card width */
+    border: 3px solid rgb(195, 178, 178);
+    border-radius: 19px;
+    box-shadow: 9px 9px 9px rgb(25, 24, 24);
+    text-align: center;
+    padding: 1em;
+}
+
+.card .photo b {
+    font-size: 20px;
+    color: rgb(151, 30, 30);
+    display: block;
+    margin-bottom: 13px;
+    margin-left: 4.5px;
+    margin-top: 9px;
+    position: absolute;
+}
+
+.card .photo img {
+    
+    width: 280px
+    ;
+    margin-left: 0.5px;
+    border-radius: 19px 0px 0px 19px;
+    
+
+}
+
+#card1_photo img{
+min-height:290px;
+
+}
+#card2{
+    display: flex;
+    text-align: center;
+
+}
+#card2 b{
+    font-size: 20px;
+    color: rgb(151, 30, 30);
+    display: block;
+    margin-bottom: 13px;
+    margin-left: 2em;
+    margin-top: 3px;
+    position: absolute;
+    
+}
+#card2 img{
+    height: 20em;
+    width: 280px;
+    border-radius: 19px 0px 0px 19px;
+    
+
+}
+#card3 img{
+    height: 20em;
+    width: 280px;
+    border-radius: 19px 0px 0px 19px;
+    
+}
+#about{
+    display: flex;
+    background: yellowgreen;
+}
+#about1,.review {
+    margin-left: 9px;
+    padding: 20px;
+    width: 50ch;
+    font-family: Arial, sans-serif;
+    color: rgb(31, 99, 76);
+
+}
+#about1 b{
+    margin-left:5em;  
+     
+  
+  
+  }
+#about2{
+    display: inline-block;
+    width: 50ch;
+    margin-left: em;
+    margin-top: 0.5em;
+}
